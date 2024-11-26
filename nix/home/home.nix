@@ -13,8 +13,8 @@ in {
 
   programs.home-manager.enable = true;
 
-  home.username = "elliott";
-  home.homeDirectory = "/home/elliott";
+  home.username = "jeff";
+  home.homeDirectory = "/home/jeff";
   home.pointerCursor = {
     x11.enable = true;
     gtk.enable = true;
@@ -25,8 +25,8 @@ in {
 
   xdg.enable = true;
 
-  xdg.configFile.nvim.source = mkOutOfStoreSymlink "/home/elliott/.dotfiles/.config/nvim";
-  xdg.dataFile.password-store.source = mkOutOfStoreSymlink "/home/elliott/.password-store";
+  xdg.configFile.nvim.source = mkOutOfStoreSymlink "/home/jeff/.dotfiles/.config/nvim";
+  xdg.dataFile.password-store.source = mkOutOfStoreSymlink "/home/jeff/.password-store";
 
   dconf = {
     enable = true;

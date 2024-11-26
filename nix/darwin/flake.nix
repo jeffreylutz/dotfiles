@@ -29,7 +29,7 @@
         system = "aarch64-darwin";
       };
     };
-    username = "elliott";
+    username = "jeff";
     configuration = {
       pkgs,
       lib,
@@ -80,9 +80,9 @@
           pkgs.zoxide
         ];
 
-      users.users.elliott = {
+      users.users.jeff = {
         name = username;
-        home = "/Users/elliott";
+        home = "/Users/jeff";
       };
 
       homebrew = {
@@ -104,7 +104,7 @@
         taps = [
         ];
         masApps = {
-          Yoink = 457622435;
+          #Yoink = 457622435;
         };
       };
 
@@ -171,7 +171,7 @@
           # `home-manager` config
           home-manager.useGlobalPkgs = true;
           home-manager.useUserPackages = true;
-          home-manager.users.elliott = import ./home.nix;
+          home-manager.users.jeff = import ./home.nix;
         }
       ];
     };

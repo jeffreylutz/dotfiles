@@ -8,11 +8,11 @@
 in {
   programs.home-manager.enable = true;
 
-  home.username = "elliott";
-  home.homeDirectory = "/Users/elliott";
+  home.username = "jeff";
+  home.homeDirectory = "/Users/jeff";
   xdg.enable = true;
 
-  xdg.configFile.nvim.source = mkOutOfStoreSymlink "/Users/elliott/.dotfiles/.config/nvim";
+  xdg.configFile.nvim.source = mkOutOfStoreSymlink "/Users/jeff/.dotfiles/.config/nvim";
 
   home.stateVersion = "23.11";
 
