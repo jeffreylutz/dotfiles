@@ -42,6 +42,9 @@
       nixpkgs.overlays = [
         inputs.templ.overlays.default
         add-unstable-packages
+        (self: super: {
+          remoteit = self.callPackage ./pkgs/remoteit { };
+        })
       ];
       environment.systemPackages =
         [
@@ -78,6 +81,7 @@
           pkgs.tmux
           pkgs.unstable.amber-lang
           pkgs.zoxide
+          pkgs.remoteit
         ];
 
       users.users.jeff = {
@@ -100,6 +104,14 @@
           "discord"
           "iina"
           "the-unarchiver"
+          "1password"
+          "1password-cli"
+          "arduino-ide"
+          "beyond-compare"
+          "jetbrains-toolbox"
+          "jetbrains-space"
+          "jetbrains-gateway"
+          "nomachine"
         ];
         taps = [
         ];
