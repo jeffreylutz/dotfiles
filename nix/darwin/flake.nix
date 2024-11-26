@@ -163,7 +163,7 @@
   in {
     # Build darwin flake using:
     # $ darwin-rebuild build --flake .#simple
-    darwinConfigurations."tsukuyomi" = nix-darwin.lib.darwinSystem {
+    darwinConfigurations."devbook" = nix-darwin.lib.darwinSystem {
       modules = [
         configuration
         home-manager.darwinModules.home-manager
@@ -177,6 +177,6 @@
     };
 
     # Expose the package set, including overlays, for convenience.
-    darwinPackages = self.darwinConfigurations."tsukuyomi".pkgs;
+    darwinPackages = self.darwinConfigurations."devbook".pkgs;
   };
 }
