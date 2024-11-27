@@ -83,6 +83,7 @@
           pkgs.unstable.amber-lang
           pkgs.zoxide
           pkgs.remoteit
+          pkgs.vscode
         ];
 
       users.users.jeff = {
