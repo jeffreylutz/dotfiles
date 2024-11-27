@@ -52,6 +52,7 @@
           pkgs.air
           pkgs.act
           pkgs.awscli2
+          pkgs.eksctl
           pkgs.bun
           pkgs.ffmpeg
           pkgs.jujutsu
