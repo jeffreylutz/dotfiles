@@ -156,7 +156,7 @@
         enable = true;
         userName = "Jeffrey Lutz";
         userEmail = "jefflutz1@gmail.com"
-        
+
       };
 
       # Set Git commit hash for darwin-version.
@@ -176,7 +176,13 @@
           autohide-delay = 0.0;
           autohide-time-modifier = 0.0;
           orientation = "right";
+          tilesize = 1;
+          magnification = true;
           persistent-apps = [ "/Applications/Safari.app" ];
+        };
+        trackpad = {
+            Clicking = false;
+            
         };
       };
 
