@@ -8,7 +8,7 @@
   userName = "Jeffrey Lutz";
   userEmail = "jefflutz1@gmail.com";
   signing.key = null;
-  signing.signByDefault = true;
+  signing.signByDefault = false;
 
   extraConfig = {
     pull = {
