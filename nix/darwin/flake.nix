@@ -51,7 +51,7 @@
           pkgs.alacritty
           pkgs.air
           pkgs.act
-          pkgs.awscli
+          pkgs.awscli2
           pkgs.bun
           pkgs.ffmpeg
           pkgs.jujutsu
