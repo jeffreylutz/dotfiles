@@ -68,7 +68,6 @@
           pkgs.obsidian
           pkgs.opentofu
           pkgs.pass
-          pkgs.postgresql_16
           pkgs.rclone
           pkgs.ripgrep
           pkgs.rustup
@@ -146,11 +145,6 @@
       services.nix-daemon.enable = true;
       # nix.package = pkgs.nix;
 
-      services.postgresql = {
-        enable = true;
-        package = pkgs.postgresql_16;
-      };
-
       # Necessary for using flakes on this system.
       nix.settings.experimental-features = "nix-command flakes";
 
@@ -169,6 +163,7 @@
         NSGlobalDomain.AppleShowAllExtensions = true;
         loginwindow.GuestEnabled = false;
         finder.FXPreferredViewStyle = "clmv";
+        NSGlobalDomain._HIHideMenuBar = true;
       };
 
       # The platform the configuration will be used on.
