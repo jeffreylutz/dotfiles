@@ -155,8 +155,7 @@
       programs.git = {
         enable = true;
         userName = "Jeffrey Lutz";
-        userEmail = "jefflutz1@gmail.com"
-
+        userEmail = "jefflutz1@gmail.com";
       };
 
       # Set Git commit hash for darwin-version.
