@@ -168,6 +168,9 @@
           autohide-delay = 0.0;
           autohide-time-modifier = 0.0;
           orientation = "right";
+          apps = [
+            "/Applications/Safari.app"
+          ];
         };
       };
 
