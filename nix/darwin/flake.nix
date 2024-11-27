@@ -163,7 +163,12 @@
         NSGlobalDomain.AppleShowAllExtensions = true;
         loginwindow.GuestEnabled = false;
         finder.FXPreferredViewStyle = "clmv";
-        NSGlobalDomain._HIHideMenuBar = true;
+        dock = {
+          autohide = true;
+          autohide-delay = 0.0;
+          autohide-time-modifier = 0.0;
+          orientation = "right";
+        }
       };
 
       # The platform the configuration will be used on.
