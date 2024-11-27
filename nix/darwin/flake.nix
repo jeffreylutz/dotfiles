@@ -169,7 +169,7 @@
           autohide-time-modifier = 0.0;
           orientation = "right";
           apps = [
-            "/Applications/Safari.app"
+            "Safari"
           ];
         };
       };
