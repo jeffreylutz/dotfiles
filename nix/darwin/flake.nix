@@ -113,6 +113,7 @@
           "jetbrains-space"
           "jetbrains-gateway"
           "nomachine"
+          "visual-studio-code"
         ];
         taps = [
         ];
