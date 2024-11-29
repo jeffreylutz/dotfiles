@@ -13,6 +13,24 @@
     # Home Manager
     home-manager.url = "github:nix-community/home-manager/release-24.05";
     home-manager.inputs.nixpkgs.follows = "nixpkgs-unstable";
+
+    # Homebrew
+    # nix-homebrew.url = "github:zhaofengli-wip/nix-homebrew";
+
+    # Optional: Declarative tap management
+    # homebrew-core = {
+    #   url = "github:homebrew/homebrew-core";
+    #   flake = false;
+    # };
+    # homebrew-cask = {
+    #   url = "github:homebrew/homebrew-cask";
+    #   flake = false;
+    # };
+    # homebrew-bundle = {
+    #   url = "github:homebrew/homebrew-bundle";
+    #   flake = false;
+    # };
+
   };
 
   outputs = {
@@ -52,6 +70,7 @@
           pkgs.air
           pkgs.act
           pkgs.awscli2
+          pkgs.ssm-session-manager-plugin
           pkgs.eksctl
           pkgs.bun
           pkgs.ffmpeg
@@ -118,6 +137,7 @@
         taps = [
         ];
         masApps = {
+          XCode = 497799835;
           #Yoink = 457622435;
         };
       };
