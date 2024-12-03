@@ -138,6 +138,7 @@
         ];
         masApps = {
           XCode = 497799835;
+          PushMicControl = 1155850258;
           #Yoink = 457622435;
         };
       };
@@ -180,7 +181,7 @@
       system.stateVersion = 4;
 
       system.defaults = {
-        NSGlobalDomain.AppleICUForce24HourTime = true;
+        NSGlobalDomain.AppleICUForce24HourTime = false;
         NSGlobalDomain.AppleShowAllExtensions = true;
         loginwindow.GuestEnabled = false;
         finder.FXPreferredViewStyle = "clmv";
