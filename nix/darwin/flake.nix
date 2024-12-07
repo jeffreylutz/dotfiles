@@ -134,6 +134,7 @@
           "jetbrains-gateway"
           "nomachine"
           "visual-studio-code"
+          "discord"
         ];
         taps = [
         ];
