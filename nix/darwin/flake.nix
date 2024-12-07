@@ -115,6 +115,7 @@
           "mas"
         ];
         casks = [
+          "quiet-reader"
           "hammerspoon"
           "amethyst"
           "alfred"
